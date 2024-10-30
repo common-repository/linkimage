@@ -1,0 +1,38 @@
+/**
+ * Linkimage Stylesheet
+ * For another improvement, you can drop email to zourbuth@gmail.com or visit http://zourbuth.com/
+**/
+
+
+.linkimage-container:after {
+	clear: both;
+}
+.linkimage-container:before,
+.linkimage-container:after {
+    content: "";
+    display: table;
+}
+.linkimage-container > div {
+    display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+.linkimage-container > div > a {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+.linkimage-container > div.placeholder {
+    background: #eee;
+}
+.linkimage img {
+    max-width: none;
+    vertical-align: middle;
+	float: left;
+}
+.linkimage form {
+    margin: 0;
+}
+.linkimage-sortable a {
+	cursor: move;
+}
